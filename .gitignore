@@ -31,3 +31,9 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Build outputs and benchmark runs (make bench writes build/bench/<name>.txt)
+build/
+
+# Plan files written by /plan
+plan/
